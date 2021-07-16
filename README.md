@@ -1,7 +1,10 @@
 ## Advancecd Deep Learning for Computer Vision
 
 Project for ADL4CV: Shape Completion with Meso-Skeleton Learning by Dongyue Lu and Zhisheng Zheng, supervised by Yinyu Nie.
+
 This code is tested under Python 3.6.3, PyTorch 1.2.0 on Ubuntu 18.04 and 20.04.
+
+check the report and poster in the folder `docu`.
 
 ### 1. Installation
 
@@ -38,7 +41,11 @@ to run the PFnet-based netwotk, or run
 ```shell
 python train_PUnet.py
 ```
-to run the PUnet-based network
+to run the PUnet-based network, or run
+```shell
+python train_PFnet_only.py
+```
+to do the ablation study for skeleton.
 See python `train.py --help` for all the training options. 
 
 
@@ -52,6 +59,10 @@ python test_PFnet.py
 or
 ```shell
 python test_PUnet.py
+```
+or
+```shell
+python test_PFnet_only.py
 ```
 See python `test.py --help` for all the testing options. 
 
