@@ -1,17 +1,19 @@
 ## Advancecd Deep Learning for Computer Vision
 
-Project for adl4cv: Shape Completion with Meso-Skeleton Learning
+Project for ADL4CV: Shape Completion with Meso-Skeleton Learning by Dongyue Lu and Zhisheng Zheng, supervised by Yinyu Nie.
+This code is tested under Python 3.6.3, PyTorch 1.2.0 on Ubuntu 18.04 and 20.04.
 
 ### 1. Installation
 
 Simply run the following commands.
 
+First, you need to set up pointnet++ dependencies
 ```shell
 cd pointnet2
 python setup.py install
 ```
 
-Install `knn_cuda` by running the following command
+Then, install `knn_cuda` by running the following command
 
 ```
 pip install --upgrade https://github.com/unlimblue/KNN_CUDA/releases/download/0.2/KNN_CUDA-0.2-py3-none-any.whl
@@ -32,11 +34,11 @@ Simply run the following code
 ```shell
 python train_PFnet.py
 ```
-to run the PFnet basis netwotk, or run
+to run the PFnet-based netwotk, or run
 ```shell
 python train_PUnet.py
 ```
-to run the PUnet basis network
+to run the PUnet-based network
 See python `train.py --help` for all the training options. 
 
 
@@ -55,7 +57,9 @@ See python `test.py --help` for all the testing options.
 
 
 ### Reference
-[PU-Net: Point Cloud Upsampling Network](https://github.com/lyqun/PU-Net_pytorch)
+[PU-Net](https://github.com/lyqun/PU-Net_pytorch)
+[PF-Net](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)
+[Point2Skeleton](https://github.com/clinplayer/Point2Skeleton)
 
 [1]Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 652–660, 2017. 1
 
