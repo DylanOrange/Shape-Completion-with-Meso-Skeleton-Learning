@@ -4,7 +4,7 @@ Project for ADL4CV: Shape Completion with Meso-Skeleton Learning by Dongyue Lu a
 
 This code is tested under Python 3.6.3, PyTorch 1.2.0 on Ubuntu 18.04 and 20.04.
 
-check the report and poster in the folder `docu`.
+check the report, slides and poster in the folder `docu`.
 
 ### 1. Installation
 
@@ -44,6 +44,7 @@ python train_PUnet.py
 to run the PUnet-based network, or run
 ```shell
 python train_PFnet_only.py
+python train_PUnet_only.py
 ```
 to do the ablation study for skeleton.
 See python `train.py --help` for all the training options. 
@@ -63,6 +64,7 @@ python test_PUnet.py
 or
 ```shell
 python test_PFnet_only.py
+python test_PUnet_only.py
 ```
 See python `test.py --help` for all the testing options. 
 
