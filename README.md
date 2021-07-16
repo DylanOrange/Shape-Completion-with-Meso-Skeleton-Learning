@@ -4,7 +4,9 @@ Project for ADL4CV: Shape Completion with Meso-Skeleton Learning by Dongyue Lu a
 
 This code is tested under Python 3.6.3, PyTorch 1.2.0 on Ubuntu 18.04 and 20.04.
 
-check the report, slides and poster in the folder `docu`.
+Check the report, slides, poster and other materials in the folder `docu`.
+
+The git repository is [here](https://github.com/DylanOrange/ADL4CV).
 
 ### 1. Installation
 
