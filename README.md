@@ -58,7 +58,9 @@ See python `test.py --help` for all the testing options.
 
 ### Reference
 [PU-Net](https://github.com/lyqun/PU-Net_pytorch)
+
 [PF-Net](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)
+
 [Point2Skeleton](https://github.com/clinplayer/Point2Skeleton)
 
 [1]Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 652–660, 2017. 1
