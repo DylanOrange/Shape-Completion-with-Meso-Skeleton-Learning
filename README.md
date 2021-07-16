@@ -30,8 +30,13 @@ Put the data into folder `datas`.
 Simply run the following code
 
 ```shell
-python train.py
+python train_PFnet.py
 ```
+to run the PFnet basis netwotk, or run
+```shell
+python train_PUnet.py
+```
+to run the PUnet basis network
 See python `train.py --help` for all the training options. 
 
 
@@ -40,7 +45,11 @@ See python `train.py --help` for all the training options.
 Simply run the following code
 
 ```shell
-python test.py
+python test_PFnet.py
+```
+or
+```shell
+python test_PUnet.py
 ```
 See python `test.py --help` for all the testing options. 
 
