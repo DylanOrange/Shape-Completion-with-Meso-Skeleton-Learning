@@ -5,7 +5,7 @@ from utils import utils
 from glob import glob
 
 class Dataset(torch_data.Dataset):
-    def __init__(self, h5_file_path='./datas/chair_100.h5',
+    def __init__(self, h5_file_path='./datas/chair.h5',
                     skip_rate=1, npoint=2048, use_norm=True, split='train', is_training=True):
         super().__init__()
         
