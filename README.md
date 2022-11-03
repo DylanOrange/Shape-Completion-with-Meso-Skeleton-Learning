@@ -1,13 +1,14 @@
-## Advancecd Deep Learning for Computer Vision
+# Shape Completion with Meso-Skeleton Learning
 
-Project for ADL4CV: Shape Completion with Meso-Skeleton Learning by Dongyue Lu and Zhisheng Zheng, supervised by Yinyu Nie.
+Shape Completion with Meso-Skeleton Learning by Dongyue Lu and Zhisheng Zheng, supervised by Dr. Yinyu Nie.
 
 This code is tested under Python 3.6.3, PyTorch 1.2.0 on Ubuntu 18.04 and 20.04.
 
 Check the report, slides, poster and other materials in the folder `docu`.
 
-The git repository is [here](https://github.com/DylanOrange/ADL4CV).
+![avatar](./docu/ad-result.png)
 
+## Run the code
 ### 1. Installation
 
 Simply run the following commands.
@@ -71,14 +72,14 @@ python test_PUnet_only.py
 See python `test.py --help` for all the testing options. 
 
 
-### Reference
+<!-- ## Reference
 [PU-Net](https://github.com/lyqun/PU-Net_pytorch)
 
 [PF-Net](https://github.com/zztianzz/PF-Net-Point-Fractal-Network)
 
-[Point2Skeleton](https://github.com/clinplayer/Point2Skeleton)
+[Point2Skeleton](https://github.com/clinplayer/Point2Skeleton) -->
 
-[1]Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 652–660, 2017. 1
+<!-- [1]Charles R Qi, Hao Su, Kaichun Mo, and Leonidas J Guibas. Pointnet: Deep learning on point sets for 3d classification and segmentation. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 652–660, 2017. 1
 
 [2] Charles R Qi, Li Yi, Hao Su, and Leonidas J Guibas. Pointnet++: Deep hierarchical feature learning on point sets in a metric space. arXiv preprint arXiv:1706.02413, 2017. 1
 
@@ -92,4 +93,4 @@ See python `test.py --help` for all the testing options.
 
 [7] Cheng Lin, Changjian Li, Yuan Liu, Nenglun Chen, Yi-King Choi, and Wenping Wang. Point2skeleton: Learning skeletal representations from point clouds. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pages 4277–4286, 2021. 2
 
-[8] Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao, Li Yi, and Fisher Yu. Shapenet: An information-rich 3d model repository, 2015. 2
+[8] Angel X. Chang, Thomas Funkhouser, Leonidas Guibas, Pat Hanrahan, Qixing Huang, Zimo Li, Silvio Savarese, Manolis Savva, Shuran Song, Hao Su, Jianxiong Xiao, Li Yi, and Fisher Yu. Shapenet: An information-rich 3d model repository, 2015. 2 -->
